@@ -46,6 +46,10 @@ public class ArrayList_Inicio {
             //ordenação
             Collections.sort(nomes);
             System.out.println("Ordenado: " + nomes.toString());
+
+            nomes.remove("pastel")
+            Collections.sort(nomes);
+            System.out.println("nomes sem o pastel: " +nomes.toString));
     }//FIM DO MAIN
 
 }
