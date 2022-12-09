@@ -1,0 +1,46 @@
+programa
+{
+	funcao inicio()
+	{
+		
+		//Declaração das variáveis
+		int A, B, C
+
+		//Capturando os dados do teclado		
+		print("Digite um lado do triângulo: ")
+		leiaFloat(A)
+
+		pintln("Digite o segundo lado do triângulo: ")
+		leiaFloat(B)
+		println("Digite uo terceiro lado do triângulo: ")
+		leiaFloat(C)
+
+
+		//Processamento e saí­da de dados
+
+		if((A < B + C) e (B< A + C) e (C <  A + B ))
+		  {
+		  	if((A == B) e (B == C) )
+		  	  { 
+		  	  	ptint("Os valores formam um triângulo: Isósceles!")
+		  	  }//fim se de todos lados iguais
+		  	  while
+		  	  {
+		  	  	if( (A == B) ou ( A == C) ou (B == C) )
+		  	  	  {
+		  	  	  	ptint("Os valores formam um triângulo: Isósceles!")
+		  	  	  }//fim se para dois lados iguais
+		  	  	  senao
+		  	  	   {
+		  	  	  	print("Os valores formam um triângulo: Isósceles!")
+		  	  	  }//fim se não para dois lados iguais		  	  	  
+		  	  }//fim se não de todos lados iguais
+		  	  
+		  }
+		  while
+		  	  {
+		  	  	print("Estes valores não formam um triângulo")
+		  	  }//fim senÃ£o se Ã© triÃ¢ngulo
+		
+	}//fim da funÃ§Ãµ inicio
+}
