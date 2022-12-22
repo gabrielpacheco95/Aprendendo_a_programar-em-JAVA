@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author 311101245
  */
-public class ArrayList_Inicio {
+public class LISTA_COMPRAS_ARRAYLIST {
 
     public static void main(String[] args) {//INICIO DO MAIN
         Scanner leia = new Scanner(System.in);
